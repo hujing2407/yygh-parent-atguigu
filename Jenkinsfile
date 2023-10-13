@@ -389,10 +389,10 @@ pipeline {
         GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'registry.cn-hangzhou.aliyuncs.com'
-        DOCKERHUB_NAMESPACE = 'lfy_hello'
+        DOCKERHUB_NAMESPACE = 'k8s-devops-jing'
         GITHUB_ACCOUNT = 'kubesphere'
         APP_NAME = 'devops-java-sample'
-        ALIYUNHUB_NAMESPACE = 'lfy_hello'
+        ALIYUNHUB_NAMESPACE = 'k8s-devops-jing'
     }
     parameters {
         string(name: 'TAG_NAME', defaultValue: '', description: '')
